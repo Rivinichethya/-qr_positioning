@@ -40,3 +40,22 @@ h1 {
     width: 100%;
 }
 
+/* BUTTON STYLING */
+
+#btn {
+    background-color: var(--theme); 
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    margin: 15px;
+    transition: all 0.3s ease; 
+}
+
+#btn:hover {
+    cursor: pointer;        
+    opacity: 0.8;           
+}
+
+
